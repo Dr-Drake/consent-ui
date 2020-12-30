@@ -1,0 +1,13 @@
+.responsive-menu{
+    max-width: 30%;
+}
+
+.listText{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 764px){
+    .responsive-menu{
+        max-width: 100%;
+    }
+}

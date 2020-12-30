@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    background: #434a51;
+    color: #e1e2e3;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 1.8rem 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socials{
+    display: flex;
+}
+
+.socials li{
+    list-style: none;
+    padding: 0 0.5rem;
+}

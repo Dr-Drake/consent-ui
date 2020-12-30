@@ -1,0 +1,77 @@
+.accordion:hover{
+    background-color: #EDEDED;
+}
+
+.the-body{
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* For the expanded version */
+.expanded{
+    align-items: center;
+    height: auto;
+    cursor: pointer;
+    background-color: #EDEDED;
+    padding: 0.7rem;
+}
+
+.paper{
+    max-width: 24em; 
+    padding: 20px;
+    overflow: hidden;
+    word-wrap: break-word;
+    
+}
+
+.loading{
+    background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);
+    animation: shine 1s infinite linear;
+}
+
+@keyframes shine {
+    0% {
+      background-position: -100px;
+    }
+    40%,
+    100% {
+      background-position: 200px;
+    }
+}
+
+@media screen and (max-width: 764px){
+
+    /* For the expanded version */
+    .header{
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .invisible{
+        opacity: 0;
+    }
+
+    .header p {
+        font-size: 4vw;
+        font-weight: bold;
+        word-wrap: break-word;
+        overflow: hidden;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+    }
+
+    .remove-btn{
+        padding: 0.5rem;
+    }
+
+    .the-body{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+}
