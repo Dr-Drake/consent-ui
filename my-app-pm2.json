@@ -1,9 +1,0 @@
-{
-    "apps": [
-        {
-            "name": "consent-ui",
-            "script": "yarn",
-            "args" : "start"
-        }
-    ]
-}

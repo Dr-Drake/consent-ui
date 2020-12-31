@@ -7,13 +7,13 @@
 
 # testing
 /coverage
-./my-app-pm2.json
+myPm2.json
 launch.js
 
 # next.js
 /.next/
 /out/
-next.config.js
+/next.*
 
 # production
 /build
