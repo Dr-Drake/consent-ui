@@ -159,7 +159,7 @@ export default function LoginForm({setIsLoading}){
                     }
                     setCookie("user", response.data.token, cookieOptions);
                     setCookie("isRemembered", isRemembered);
-                    router.push("/")
+                    router.push("/applications")
                 }
             }).catch((error)=>{
                 setIsLoading(false)

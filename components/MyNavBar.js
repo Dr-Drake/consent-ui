@@ -75,7 +75,7 @@ export default function MyNavBar(props){
 
                 // Delete cookie and redirect to login page
                 removeCookie("user");
-                router.push("/")
+                router.push("/login")
             }
         }).catch((error)=>{
             if (error.response.data.error){
@@ -83,7 +83,7 @@ export default function MyNavBar(props){
 
                 // Still delete cookie and redirect to login page
                 removeCookie("user");
-                router.push("/")
+                router.push("/login")
                 return
             }
 

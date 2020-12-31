@@ -54,7 +54,7 @@ export async function getServerSideProps(context){
     try{
         // Check if token is in cookie -- redirect if so
       if (data.user){
-            redirect(context.res, "/");
+            redirect(context.res, "/applications");
             return {props: {custom: "user here"}}
       }
       console.log("No user")
