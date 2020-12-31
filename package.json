@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "pm2-next": "pm2 start ./node_modules/next/dist/cli/next-start.js --name consent-ui -i 1"
   },
   "proxy": "http://localhost:3000",
   "dependencies": {

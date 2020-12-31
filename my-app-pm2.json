@@ -2,7 +2,7 @@
     "apps": [
         {
             "name": "consent-ui",
-            "script": "next",
+            "script": "npm",
             "args" : "start"
         }
     ]
