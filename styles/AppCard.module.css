@@ -17,6 +17,26 @@
     padding: 0.7rem;
 }
 
+.logo{
+    display: flex;
+    background-color: #DE4A09; 
+    align-items: center; 
+    justify-content: center; 
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+}
+
+.name{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-size: medium;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
 .paper{
     max-width: 24em; 
     padding: 20px;

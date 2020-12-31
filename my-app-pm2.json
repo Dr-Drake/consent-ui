@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "consent-ui",
+            "script": "next",
+            "args" : "start"
+        }
+    ]
+}

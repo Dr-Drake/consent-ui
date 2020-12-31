@@ -154,16 +154,16 @@ export default function AppCard({id, name, logo, scopes, removeApplication}){
         <Accordion style={expandStyle()} onChange={()=> setExanpsion(!expand)} className={styles.accordion}>
             <CustomAccordionSummary>
                 <Row style={{width: "100%", margin: "0"}}>
-                    <Col xs={1} className={classes.logo}>
+                    <Col xs={1} className={styles.logo}>
                         {confirmLogo()}
                     </Col>
-                    <Col className={classes.name}>
+                    <Col className={styles.name}>
                         {name}
                     </Col>
                 </Row>
             </CustomAccordionSummary>
             <AccordionDetails style={{flexDirection: "column"}}>
-                <Card className={styles["the-body"]}>
+                <Card key={id} className={styles["the-body"]}>
                     Has access to:
 
                     {scopes.map((scope, index)=>{
