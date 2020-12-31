@@ -2,7 +2,7 @@
     "apps": [
         {
             "name": "consent-ui",
-            "script": "npm",
+            "script": "yarn",
             "args" : "start"
         }
     ]

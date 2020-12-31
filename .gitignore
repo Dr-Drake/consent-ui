@@ -7,8 +7,8 @@
 
 # testing
 /coverage
+./my-app-pm2.json
 launch.js
-my-app-pm2.json
 
 # next.js
 /.next/
